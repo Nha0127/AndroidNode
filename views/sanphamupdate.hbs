@@ -1,0 +1,27 @@
+<div class="container mt-3">
+  <h3>Sửa sản phẩm</h3>
+    
+  <form action="/sua/{{item._id}}" class="was-validated" method="post" enctype="multipart/form-data">
+    <div class="mb-3 mt-3">
+      <label for="tenSp" class="form-label" name="_id">Id: {{item._id}}</label>
+      
+    </div>
+    <div class="mb-3 mt-3">
+      <label for="tenSp" class="form-label">Tên sản phẩm:</label>
+      <input type="text" class="form-control" id="tenSp" placeholder="Nhập tên sản phẩm..." name="tenSp" required value="{{item.tenSp}}">
+    </div>
+    <div class="mb-3">
+      <label for="gia" class="form-label">Giá:</label>
+      <input type="text" class="form-control" id="gia" placeholder="Nhập giá sản phẩm..." name="gia" required value="{{item.gia}}">
+    </div>
+    <div class="mb-3">
+      <label for="soLuong" class="form-label">Số lượng:</label>
+      <input type="text" class="form-control" id="soLuong" placeholder="Nhập số lượng..." name="soLuong" required value="{{item.soLuong}}">
+    </div>
+    <div class="mb-3">
+      <label for="hinhSp" class="form-label">Hình ảnh:</label>
+      <input type="file"  class="form-control" id="hinhSp" name="hinhSp"  value="{{item.hinhSp}}">
+    </div>
+    <button type="submit" class="btn btn-primary" value="upload">Sửa</button>
+  </form>
+</div>

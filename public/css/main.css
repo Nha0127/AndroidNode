@@ -1,0 +1,52 @@
+#wrapper .sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #2B333E;
+  margin-top: 30px;
+}
+
+.nav-link {
+  padding: 18px 30px;
+  color: #AEB7C2;
+  border-left: 5px solid transparent;
+  font-size: medium;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #fff;
+  background-color: transparent;
+}
+
+/********************
+ * SIDEBAR NAVIGATION
+ ********************/
+.sidebar .nav>li>a {
+  padding: 18px 30px;
+  color: #AEB7C2;
+  border-left: 5px solid transparent;
+  font-size: large;
+}
+
+.sidebar .nav>li>a:hover,
+.sidebar .nav>li>a:focus,
+.sidebar .nav>li>a.active {
+  color: #fff;
+  background-color: transparent;
+}
+.card{
+  background-color: #2B333E;
+}
+.card-title{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+.container-fluid{
+  background-color: #2B333E;
+}
+body{
+  background-image: url(/images/BK.jpg);
+}
